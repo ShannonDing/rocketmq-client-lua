@@ -1,11 +1,11 @@
-## RocketMQ Client Python
+## RocketMQ Client Lua
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![TravisCI](https://travis-ci.org/apache/rocketmq-client-python.svg)](https://travis-ci.org/apache/rocketmq-client-python)
-* RocketMQ Python client is developed on top of [rocketmq-client-cpp](https://github.com/apache/rocketmq-client-cpp), which has been proven robust and widely adopted within Alibaba Group by many business units for more than three years.
+[![TravisCI](https://travis-ci.org/apache/rocketmq-client-lua.svg)](https://travis-ci.org/apache/rocketmq-client-lua)
+* RocketMQ Lua client is developed on top of [rocketmq-client-cpp](https://github.com/apache/rocketmq-client-cpp), which has been proven robust and widely adopted within Alibaba Group by many business units for more than three years.
 
 ----------
 ## Quick Start
-* Step-by-step instruction are provided in [RocketMQ Client Python Introduction](https://github.com/apache/rocketmq-client-python/blob/master/doc/Introduction.md).
+* Step-by-step instruction are provided in [RocketMQ Client Lua Introduction](https://github.com/apache/rocketmq-client-lua/blob/master/doc/Introduction.md).
 * Consult [RocketMQ Quick Start](https://rocketmq.apache.org/docs/quick-start/) to setup rocketmq broker and nameserver.
 
 ----------
