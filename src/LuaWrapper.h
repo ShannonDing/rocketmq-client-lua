@@ -26,6 +26,21 @@ extern "C"
 #include <lauxlib.h>
 }
 
-static int testFunction() {
-    return 1;
-}
+#ifdef WIN32
+#ifdef ROCKETMQCLIENT_EXPORTS
+#ifdef _WINDLL
+#define ROCKETMQCLIENT_API __declspec(dllexport)
+#else
+#define ROCKETMQCLIENT_API
+#endif
+#else
+#ifdef ROCKETMQCLIENT_IMPORT
+#define ROCKETMQCLIENT_API __declspec(dllimport)
+#else
+#define ROCKETMQCLIENT_API
+#endif
+#endif
+#else
+#define ROCKETMQCLIENT_API
+#endif
+extern "C" ROCKETMQCLIENT_API int luaopen_librocketmqclientlua(lua_State *L);
